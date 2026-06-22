@@ -7,12 +7,8 @@ const app: Express = express();
 
 // CORS Configuration
 const allowedOrigins = [
-  'http://localhost:3000',
   'http://localhost:5000',
-  'http://192.168.1.169:3000',
-  'http://192.168.1.169:5000',
-  'https://banking-mobile-app.onrender.com',
-  'https://banking-mobile-app-staging.onrender.com',
+  'https://banking-mobile-app-backend.onrender.com',
 ];
 
 const corsOptions = {
